@@ -6,7 +6,7 @@ public class Main {
         //Mostrar el numero de puertas que tiene el objet
         System.out.println(miChoche.puertas);
 
-        //Llamar a la function en el main y darle valores
+        //Llamar a la function en el main y darle valores prueba
         int resultado;
         resultado = suma(  4,  2, 5 );
         System.out.println(resultado);
