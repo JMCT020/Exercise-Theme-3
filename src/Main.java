@@ -4,7 +4,7 @@ public class Main {
         Coche miChoche = new Coche();
         miChoche.PonerPuertas();
         //Mostrar el numero de puertas que tiene el objet
-        System.out.println(miChoche.puertas);
+        System.out.println("El numero de puertas es: " + miChoche.puertas);
 
         //Llamar a la function en el main y darle valores prueba
         int resultado;
@@ -19,7 +19,7 @@ public class Main {
 //Crear una clase coche
 class Coche{
     //Dentro de la clase coche, una variable numerica que almacene el numero de puertas que tiene
-    public int puertas = 0;
+    public int puertas = 4;
     //Una function que increment el numero de puertas que tiene el coche
     public void PonerPuertas(){
         this.puertas++;
