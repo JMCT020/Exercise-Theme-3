@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class ExerciseFour {
-    public static Scanner sc =new Scanner(System.in);//Se crea el lector
     public static void main(String[] args){
 
         //llamamos a cada funcion ala funcion principal para ejecurtalos en orden
@@ -13,6 +12,7 @@ public class ExerciseFour {
     }
     public static void condicional(){
 
+        Scanner sc =new Scanner(System.in);//Se crea el lector
         System.out.println("Sr.User ingrese un numero:");//se pide un dato al usuario
         int num = sc.nextInt();//se almacena el numero directamente con nextInt()
         sc.close();//cerramos el scanner para ahorrar recursos
@@ -62,7 +62,7 @@ public class ExerciseFour {
     }
     public static void menu(){
         Scanner sc =new Scanner(System.in);
-        System.out.println("Inicio del menu");
+        System.out.println("Inicio del menu ingresa estacion del año");
         String estacion = sc.nextLine();//Declaramos una variable con la estacion que quisieramos que mostrara en pantalla
         sc.close();//cerramos el scanner para ahorrar recursos
         switch (estacion)//creamos el switch y llamamos la variable estacion
